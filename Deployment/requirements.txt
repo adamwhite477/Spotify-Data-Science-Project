@@ -4,3 +4,5 @@ matplotlib
 pandas
 pyqt5
 numpy
+fastai.vision.all
+PIL

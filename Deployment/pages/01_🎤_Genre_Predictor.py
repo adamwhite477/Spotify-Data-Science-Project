@@ -1,5 +1,5 @@
 import streamlit as st
-from fastai.vision.all import *
+from fastai.vision.all import load_learner
 from PIL import Image
 model = load_learner("model1.pkl")
 

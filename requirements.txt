@@ -5,4 +5,3 @@ pandas
 pyqt5
 numpy
 pathlib
-platform

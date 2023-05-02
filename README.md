@@ -12,3 +12,12 @@ The deployment of this app is hosted using the link below:
 **ModelCreation:** Contains the Jupyter Notebook of how the model is created
 
 **Images:** All images that are found on the Streamlit app are inside of here
+
+# Notes on Files:
+
+**model2.pkl:** Exported FastAI vision learner model
+
+**requirements.txt:** List of libraries used for Streamlit deployment
+
+**Tutorial_Outline.ipynb:** Jupyter Notebook of my Tutorial on how to use library Spotipy
+

@@ -1,7 +1,12 @@
 # Spotify Data Science Project
 
 The deployment of this app is hosted using the link below:
+
 [https://spotify-project.streamlit.app/](https://spotify-project.streamlit.app/)
+
+Information on how this project was made is also listed on this app
+
+
 
 # Notes on Folders:
 

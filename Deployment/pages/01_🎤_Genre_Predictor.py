@@ -16,7 +16,7 @@ with st.container():
     st.title("Test out my model!")
     st.write("This a model that tries to predict the genre of the image it is given")
     st.write("Genres it tries to determine: [Rap, Country, Rock]")
-    uploaded_img = st.file_uploader("Upload Image Here", type="jpg", accept_multiple_files=False)
+    uploaded_img = st.file_uploader("Upload Image Here", type=["jpg", "png", "jfif", "webp", "jpeg"], accept_multiple_files=False)
 
 if uploaded_img is not None:
     img = Image.open(uploaded_img)

@@ -16,7 +16,7 @@ Information on how this project was made is also listed on this app
 
 **ModelCreation:** Contains the Jupyter Notebook of how the model is created
 
-**Images:** All images that are found on the Streamlit app are inside of here
+**Pictures:** All images that are found on the Streamlit app are inside of here
 
 # Notes on Files:
 

@@ -6,7 +6,7 @@ import platform
 plt = platform.system()
 if plt == 'Linux': 
     pathlib.WindowsPath = pathlib.PosixPath
-model = load_learner("model2.pkl")
+model = load_learner("model3.pkl")
 
 st.set_page_config(page_title="Genre Predictor", page_icon=":microphone:")
 

@@ -39,8 +39,15 @@ if uploaded_img is not None:
     st.image(img)
     genre,_,probs = model.predict(img)
     with st.container():
-        st.write("This is a {} album".format(genre))
-        st.write("It has a confidence of {:.4f}".format(probs[0]))
+        if genre == "country":
+            st.write("This model predicts that based on this image, this is a :orange[Country] album cover! Yee-haw! 🤠")
+            st.write("This is predicted with a confidence of: {:.4f}".format(probs[0]))
+        elif genre == "rap":
+            st.write("This model predicts that based on this image, this is a :red[Rap] album cover! That's Fire :fire:")
+        elif genre == "rock":
+            st.write("This model predicts that based on this image, this is a :green[Rock] album cover! Rock On 🤘")
+        else:
+            st.write("Error, predicted genre is {}?", genre)
 
 spotify_img = Image.open("Pictures/spotify_logo.png")
 st.image(spotify_img)

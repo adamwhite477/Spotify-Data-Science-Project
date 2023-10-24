@@ -10,13 +10,14 @@ st.title(":green[Spotify Data Science Project!]")
 st.write("**Created By:** Adam White")
 st.write("**Github Repo [HERE](https://github.com/adamwhite477/Spotify-Data-Science-Project)**")
 description_text = '''
-                This is the deployed web app of the deep learning model I created using fastAI! This   
-                model attempts to predict the Genre of the user-generated image based on album cover   
-                data extracted directly from the Spotify API. So far, the model can only predict 3   
-                different genres (Rap, Country, Rock), however I am currently working on another model   
-                that will attempt to expand the genre titles without sacrificing accuracy. This was my   
-                first time using an API and creating a Deep Learning model so it is admittedly a bit basic   
-                but it has given me a good foundation on progressing my knowledge in these tremendously!
+                This is the deployed web app of the deep learning model I created using fastAI! This model attempts    
+                to predict the Genre of the user-generated image based on album cover data extracted directly from   
+                the Spotify API. So far, the model can only predict 3 different genres (Rap, Country, Rock), however     
+                I am currently working on another model that will attempt to expand the amount of genre titles without   
+                sacrificing accuracy. This was my first time using an API and creating a Deep Learning model so it is   
+                admittedly a bit basic, but it has given me a good foundation on progressing my knowledge in these areas   
+                tremendously!  
+                
 '''
 st.markdown(description_text)
 st.write("Try it out below!")

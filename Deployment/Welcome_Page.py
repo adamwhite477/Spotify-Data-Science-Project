@@ -41,13 +41,10 @@ if uploaded_img is not None:
     with st.container():
         if genre == "country":
             st.write("This model predicts that based on this image, this is a :orange[Country] album cover! Yee-haw! 🤠")
-            st.write("This is predicted with a confidence of: {:.4f}%".format(probs[0] * 100))
         elif genre == "rap":
             st.write("This model predicts that based on this image, this is a :red[Rap] album cover! That's Fire :fire:")
-            st.write("This is predicted with a confidence of: {:.4f}%".format(probs[0] * 100))
         elif genre == "rock":
             st.write("This model predicts that based on this image, this is a :green[Rock] album cover! Rock On 🤘")
-            st.write("This is predicted with a confidence of: {:.4f}%".format(probs[0] * 100))
         else:
             st.write("Error, predicted genre is {}?", genre)
 

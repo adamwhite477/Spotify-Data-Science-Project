@@ -41,3 +41,6 @@ if uploaded_img is not None:
     with st.container():
         st.write("This is a {} album".format(genre))
         st.write("It has a confidence of {:.4f}".format(probs[0]))
+
+spotify_img = Image.open("Pictures/spotify_logo.png")
+st.image(spotify_img)

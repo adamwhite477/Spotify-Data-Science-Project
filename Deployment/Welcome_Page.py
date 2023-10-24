@@ -18,8 +18,6 @@ if plt == 'Linux':
     pathlib.WindowsPath = pathlib.PosixPath
 model = load_learner("model3.pkl")
 
-st.set_page_config(page_title="Genre Predictor", page_icon=":microphone:")
-
 # ---- HEADER -----
 with st.container():
     # st.subheader("Hello Test")
